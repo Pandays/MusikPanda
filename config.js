@@ -16,9 +16,9 @@ module.exports = {
 
 	opt: {
 		roleRestrictedMode: {
-			enabled: false, // if you only want people with a role to use to bot, set this to true. In that case, a role with the name you specified will be created (if there is not already one with that name). There should only be one role with this name.
+			enabled: true, // if you only want people with a role to use to bot, set this to true. In that case, a role with the name you specified will be created (if there is not already one with that name). There should only be one role with this name.
 			alwaysAllowAdmins: true, // If this is set to true, everyone with the "Manage Guild"-permission can use it, even without the role
-			roleName: `Musikpisser Permissions`, // specify the name the role should have
+			roleName: `MusikPanda Rechte`, // specify the name the role should have
 			notAffected: [`help`, `ping`, `crash`, `get-ip`, `nowplaying`, `queue`, `time`], // This are commands everyone can run, even if they don't have the role
 			affectedButtonsAndMenus: [`cancelButton`, `addAgainButton`, `trackMenu`] // These buttons/menus can't be used without the role
 		},
